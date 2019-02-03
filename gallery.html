@@ -34,6 +34,7 @@
     <script src="js/script.js"></script>
     <script>new WOW().init();</script>
     <script src="js/jquery.colorbox.js"></script>
+    <script src="js/tabbed-content.js"></script>
     <script type="text/javascript">
         $().ready(function(){
         $(".group4").colorbox({rel:'group1',width:"55%"});
@@ -58,7 +59,7 @@
             <!--<li><a href='about.html'>About2</a></li>-->
         <!--</ul>-->
 	</li>
-	<li><a href='services.html'>Facilities</a></li>
+	<li><a href='facilities.html'>Facilities</a></li>
     <li><a href='social.html'>Social</a></li>
     <li><a href='index.html#testimonials'>Testimonials</a></li>
     <li><a href='#contact-us'>Contact</a></li>
@@ -77,75 +78,122 @@
 
 
 
-<div id="bannerInnerPage"><img src="images/bg.jpg" width="100%" /><div id="headingInner"><h2>Home/<span>Our Gallery</span></h2></div></div>
+<div id="bannerInnerPage"><img src="images/bg.jpg" width="100%" /><div id="headingInner"><h2>Home/<span>Gallery</span></h2></div></div>
 
 <div class="container gallery">
-<div class="wow fadeInUp"><h1>Photo Gallery</h1>
+
+<!-- Tab links -->
+<!--<div class="tab">-->
+    <!--<button class="tablinks" onclick="pickTab(event, 'Exterior')">Exterior</button>-->
+    <!--<button class="tablinks" onclick="pickTab(event, 'Interior')">Interior</button>-->
+    <!--<button class="tablinks" onclick="pickTab(event, 'Wedding')">Wedding</button>-->
+    <!--<button class="tablinks" onclick="pickTab(event, 'Engagement')">Engagement</button>-->
+    <!--<button class="tablinks" onclick="pickTab(event, 'Birthdays')">Birthdays</button>-->
+    <!--<button class="tablinks" onclick="pickTab(event, 'CorporateEvents')">Corporate Events</button>-->
+<!--</div>-->
+
+<!-- Tab content -->
+<!--<div id="Exterior" class="tabcontent">-->
+  <!--<h3>Exterior</h3>-->
+<!--<div class="wow fadeInUp" id="exterior-gallery">-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="150ms"><a href="images/p1.jpg" class="group4"><img src="images/p1.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="300ms"><a href="images/p2.jpg" class="group4"><img src="images/p2.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="450ms"><a href="images/p3.jpg" class="group4"><img src="images/1.jpg" width="100%" height="100%"    /></a>	</div>-->
+<!--</div>-->
+<!-- End of Tabbed Exp -->
+
+<div class="wow fadeInUp" id="exterior-gallery"><h1>Gallery</h1>
+
+    <a id="1st-floor"></a>
+    <div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="150ms"><a href="images/gallery/1st-floor-bh-1.jpg" class="group4"><img src="images/gallery/1st-floor-bh-1.jpg" width="100%" height="100%"/></a></div>
+    <div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="300ms"><a href="images/gallery/1st-floor-bh-2.jpg" class="group4"><img src="images/gallery/1st-floor-bh-2.jpg" width="100%" height="100%"/></a></div>
+    <div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="450ms"><a href="images/gallery/1st-floor-bh-3.jpg" class="group4"><img src="images/gallery/1st-floor-bh-3.jpg" width="100%" height="100%"/></a></div>
+    <div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="600ms"><a href="images/gallery/1st-floor-foyer-1.jpg" class="group4"><img src="images/gallery/1st-floor-foyer-1.jpg" width="100%" height="100%"/></a></div>
+    <div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="600ms"><a href="images/gallery/1st-floor-foyer-2.jpg" class="group4"><img src="images/gallery/1st-floor-foyer-2.jpg" width="100%" height="100%"/></a></div>
+    <div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="600ms"><a href="images/gallery/1st-floor-foyer-3.jpg" class="group4"><img src="images/gallery/1st-floor-foyer-3.jpg" width="100%" height="100%"/></a></div>
+
+    <a id="2nd-floor"></a>
+    <div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="750ms"><a href="images/gallery/2nd-floor-bh-1.jpg" class="group4"><img src="images/gallery/2nd-floor-bh-1.jpg" width="100%" height="100%"/></a></div>
+    <div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="900ms"><a href="images/gallery/2nd-floor-bh-2.jpg" class="group4"><img src="images/gallery/2nd-floor-bh-2.jpg" width="100%" height="100%"/></a></div>
+    <div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1100ms"><a href="images/gallery/2nd-floor-bh-3.jpg" class="group4"><img src="images/gallery/2nd-floor-bh-3.jpg" width="100%" height="100%"/></a></div>
+    <div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/gallery/2nd-floor-foyer-1.jpg" class="group4"><img src="images/gallery/2nd-floor-foyer-1.jpg" width="100%" height="100%"/></a></div>
+    <div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/gallery/2nd-floor-foyer-2.jpg" class="group4"><img src="images/gallery/2nd-floor-foyer-2.jpg" width="100%" height="100%"/></a></div>
+    <div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/gallery/2nd-floor-foyer-3.jpg" class="group4"><img src="images/gallery/2nd-floor-foyer-3.jpg" width="100%" height="100%"/></a></div>
+
+    <a id="3rd-floor"></a>
+    <div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/gallery/3rd-floor-bh-1.jpg" class="group4"><img src="images/gallery/3rd-floor-bh-1.jpg" width="100%" height="100%"/></a></div>
+    <div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/gallery/3rd-floor-bh-2.jpg" class="group4"><img src="images/gallery/3rd-floor-bh-2.jpg" width="100%" height="100%"/></a></div>
+
+    <a id="decor"></a>
+    <div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/gallery/decor-1.jpg" class="group4"><img src="images/gallery/decor-1.jpg" width="100%" height="100%"/></a></div>
+    <div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/gallery/decor-2.jpg" class="group4"><img src="images/gallery/decor-2.jpg" width="100%" height="100%"/></a></div>
+
+    <a id="exterior"></a>
+    <div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/gallery/exterior-night-1.jpeg" class="group4"><img src="images/gallery/exterior-night-1.jpeg" width="100%" height="100%"/></a></div>
+    <div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/gallery/exterior-front-1.jpg" class="group4"><img src="images/gallery/exterior-front-1.jpg" width="100%" height="100%"/></a></div>
+    <div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/gallery/exterior-side-1.jpg" class="group4"><img src="images/gallery/exterior-side-1.jpg" width="100%" height="100%"/></a></div>
+
+    <a id="features"></a>
+    <div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/gallery/elevator-1.jpg" class="group4"><img src="images/gallery/elevator-1.jpg" width="100%" height="100%"/></a></div>
+    <div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/gallery/suite-interior-1.jpg" class="group4"><img src="images/gallery/suite-interior-1.jpg" width="100%" height="100%"/></a></div>
+    <div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/gallery/studio-1.jpg" class="group4"><img src="images/gallery/studio-1.jpg" width="100%" height="100%"/></a></div>
+    <div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/gallery/studio-2.jpg" class="group4"><img src="images/gallery/studio-2.jpg" width="100%" height="100%"/></a></div>
+
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="750ms"><a href="images/3.jpg" class="group4"><img src="images/3.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="900ms"><a href="images/4.jpg" class="group4"><img src="images/4.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1050ms"><a href="images/5.jpg" class="group4"><img src="images/5.jpg" width="100%" height="100%"    /></a>	</div>-->
+
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/6.jpg" class="group4"><img src="images/6.jpg" width="100%" height="100%"    /></a>	</div>-->
+
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/l1.jpg" class="group4"><img src="images/l1.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/l2.jpg" class="group4"><img src="images/l2.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/l3.jpg" class="group4"><img src="images/l3.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/l4.jpg" class="group4"><img src="images/l4.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/l5.jpg" class="group4"><img src="images/l5.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/l6.jpg" class="group4"><img src="images/l6.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/l7.jpg" class="group4"><img src="images/l7.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/l8.jpg" class="group4"><img src="images/l8.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/l9.jpg" class="group4"><img src="images/l9.jpg" width="100%" height="100%"    /></a>	</div>-->
+
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/20.jpg" class="group4"><img src="images/20.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/21.jpg" class="group4"><img src="images/21.jpg" width="100%" height="100%"    /></a>	</div>-->
+
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/22.jpg" class="group4"><img src="images/22.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/23.jpg" class="group4"><img src="images/23.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/24.jpg" class="group4"><img src="images/24.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/25.jpg" class="group4"><img src="images/25.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/26.jpg" class="group4"><img src="images/26.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/27.jpg" class="group4"><img src="images/27.jpg" width="100%" height="100%"    /></a>	</div>-->
 
 
-<br />
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="150ms"><a href="images/p1.jpg" class="group4"><img src="images/p1.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="300ms"><a href="images/p2.jpg" class="group4"><img src="images/p2.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="450ms"><a href="images/1.jpg" class="group4"><img src="images/1.jpg" width="100%" height="100%"    /></a>	</div>
-
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="600ms"><a href="images/2.jpg" class="group4"><img src="images/2.jpg" width="100%" height="100%"    /></a>	</div>
-
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="750ms"><a href="images/3.jpg" class="group4"><img src="images/3.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="900ms"><a href="images/4.jpg" class="group4"><img src="images/4.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1050ms"><a href="images/5.jpg" class="group4"><img src="images/5.jpg" width="100%" height="100%"    /></a>	</div>
-
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/6.jpg" class="group4"><img src="images/6.jpg" width="100%" height="100%"    /></a>	</div>
-
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/l1.jpg" class="group4"><img src="images/l1.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/l2.jpg" class="group4"><img src="images/l2.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/l3.jpg" class="group4"><img src="images/l3.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/l4.jpg" class="group4"><img src="images/l4.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/l5.jpg" class="group4"><img src="images/l5.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/l6.jpg" class="group4"><img src="images/l6.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/l7.jpg" class="group4"><img src="images/l7.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/l8.jpg" class="group4"><img src="images/l8.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/l9.jpg" class="group4"><img src="images/l9.jpg" width="100%" height="100%"    /></a>	</div>
-
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/20.jpg" class="group4"><img src="images/20.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/21.jpg" class="group4"><img src="images/21.jpg" width="100%" height="100%"    /></a>	</div>
-
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/22.jpg" class="group4"><img src="images/22.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/23.jpg" class="group4"><img src="images/23.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/24.jpg" class="group4"><img src="images/24.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/25.jpg" class="group4"><img src="images/25.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/26.jpg" class="group4"><img src="images/26.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/27.jpg" class="group4"><img src="images/27.jpg" width="100%" height="100%"    /></a>	</div>
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/28.jpg" class="group4"><img src="images/28.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/29.jpg" class="group4"><img src="images/29.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/30.jpg" class="group4"><img src="images/30.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/31.jpg" class="group4"><img src="images/31.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/32.jpg" class="group4"><img src="images/32.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/33.jpg" class="group4"><img src="images/33.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/34.jpg" class="group4"><img src="images/34.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/35.jpg" class="group4"><img src="images/35.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/36.jpg" class="group4"><img src="images/36.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/37.jpg" class="group4"><img src="images/37.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/38.jpg" class="group4"><img src="images/38.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/39.jpg" class="group4"><img src="images/39.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/40.jpg" class="group4"><img src="images/40.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/41.jpg" class="group4"><img src="images/41.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/42.jpg" class="group4"><img src="images/42.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/43.jpg" class="group4"><img src="images/43.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/44.jpg" class="group4"><img src="images/44.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/45.jpg" class="group4"><img src="images/45.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/46.jpg" class="group4"><img src="images/46.jpg" width="100%" height="100%"    /></a>	</div>-->
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/47.jpg" class="group4"><img src="images/47.jpg" width="100%" height="100%"    /></a>	</div>-->
 
 
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/28.jpg" class="group4"><img src="images/28.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/29.jpg" class="group4"><img src="images/29.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/30.jpg" class="group4"><img src="images/30.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/31.jpg" class="group4"><img src="images/31.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/32.jpg" class="group4"><img src="images/32.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/33.jpg" class="group4"><img src="images/33.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/34.jpg" class="group4"><img src="images/34.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/35.jpg" class="group4"><img src="images/35.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/36.jpg" class="group4"><img src="images/36.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/37.jpg" class="group4"><img src="images/37.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/38.jpg" class="group4"><img src="images/38.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/39.jpg" class="group4"><img src="images/39.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/40.jpg" class="group4"><img src="images/40.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/41.jpg" class="group4"><img src="images/41.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/42.jpg" class="group4"><img src="images/42.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/43.jpg" class="group4"><img src="images/43.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/44.jpg" class="group4"><img src="images/44.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/45.jpg" class="group4"><img src="images/45.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/46.jpg" class="group4"><img src="images/46.jpg" width="100%" height="100%"    /></a>	</div>
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/47.jpg" class="group4"><img src="images/47.jpg" width="100%" height="100%"    /></a>	</div>
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/l10.jpg" class="group4"><img src="images/l10.jpg" width="100%" height="100%"    /></a>	</div>-->
 
-
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/l10.jpg" class="group4"><img src="images/l10.jpg" width="100%" height="100%"    /></a>	</div>
-
-<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/l11.jpg" class="group4"><img src="images/l11.jpg" width="100%" height="100%"    /></a>	</div>
-
-
+    <!--<div class=" col-sm-3 galleryInner wow fadeIn" data-wow-delay="1200ms"><a href="images/l11.jpg" class="group4"><img src="images/l11.jpg" width="100%" height="100%"    /></a>	</div>-->
 
 </div>
+
 </div>
 
 
@@ -178,37 +226,33 @@
 </div>
 
 
-<a id="contact-us">
+<a id="contact-us"></a>
 <div id="footer" class="wow fadeInLeft">
 <div id="footerDiv">
-<div class="innerFoot"><h3><i class="icon-location4"></i> Location</h3>
-
-<p>Sankalp Media & Convention
-<br>(in front of Sai Temple)
-<br>Infocity Road, Sailashree Vihar
-<br>Bhubaneswar, Odisha 751024
-</p>
-
-
-</div>
-<div class="innerFoot"><h3><i class="icon-mail"></i> Email us</h3>
-<p><a href="mailto:celebratewithsankalp@gmail.com">celebratewithsankalp@gmail.com</a></p>
-</div>
-<div class="innerFoot"><h3><i class="icon-phone"></i> Call us</h3>
-<p><a href="tel:+91-700-864-8674">+91-700-864-8674</a></p>
-</div>
-<div class="innerFoot"><h3><i class="icon-heart"></i> Connect With Us</h3>
-    <p>
-    <a href="https://www.facebook.com/celebratewithsankalp1" target="_blank"><i class="icon-facebook2"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://www.instagram.com/celebratewithsankalp" target="_blank"><i class="icon-instagram"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://www.wedmegood.com/wedding-venues/Celebrate-With-Sankalp-497661" target="_blank"><i class="icon-ello"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://www.youtube.com/user/celebratewithsankalp" target="_blank"><i class="icon-youtube2"></i></a>
-    </p>
-</div>
+	<div class="innerFoot"><h3><i class="icon-heart"></i> Connect With Us</h3>
+		<p>
+		<a href="https://www.facebook.com/celebratewithsankalp1" target="_blank"><i class="icon-facebook2"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.instagram.com/celebratewithsankalp" target="_blank"><i class="icon-instagram"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.wedmegood.com/wedding-venues/Celebrate-With-Sankalp-497661" target="_blank"><i class="icon-ello"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/user/celebratewithsankalp" target="_blank"><i class="icon-youtube2"></i></a>
+		</p>
+	</div>
+	<div class="innerFoot"><h3><i class="icon-mail"></i> Email us</h3>
+		<p><a href="mailto:celebratewithsankalp@gmail.com">celebratewithsankalp@gmail.com</a></p>
+	</div>
+	<div class="innerFoot"><h3><i class="icon-phone"></i> Call us</h3>
+		<p><a href="tel:+91-700-864-8674">+91-700-864-8674</a></p>
+	</div>
+	<div class="innerFoot"><h3><i class="icon-location4"></i> Visit Us</h3>
+		<p>Sankalp Media & Convention
+		<br>(in front of Sai Temple)
+		<br>Infocity Road, Sailashree Vihar
+		<br>Bhubaneswar, Odisha 751024
+	</p>
+	</div>
 <div class="clear"></div>
 </div>
 </div>
-</a>
 
 
 <div id="bottomFootContainer">

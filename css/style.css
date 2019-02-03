@@ -461,7 +461,7 @@ font-family: 'Quicksand', cursive; padding:2px; color:#FFFFFF; width:30%; }
 .content1 h2{ font-size:20px; font-family: 'Quicksand', sans-serif;
 font-family: 'Quicksand', cursive; color:#FFFFFF; }
 .content1 p{ padding:25px; font-size:15px;  color:#FFFFFF; font-family: 'Quicksand', serif; }
-.innerServiceTotal{padding:30px; float:left; background-color:#303646; float:left; width:32%; margin-right:1%;  text-align:center; margin-bottom:15px; }
+.innerServiceTotal{padding:30px; float:left; background-color:#45a5d1; float:left; width:32%; margin-right:1%;  text-align:center; margin-bottom:15px; }
 .innerService{ }
 .innerService h2{ font-size:20px; 
 font-family: 'Quicksand', cursive; color:#FFFFFF; }
@@ -483,6 +483,44 @@ font-family: 'Quicksand', cursive; color:#FFFFFF; }
 .innerChoose{ margin-top:35px;}
 .sucessfulEvents{ display:none;}
 .clear{ clear:both;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+/*Mobile Specific CSS*/
 @media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 body{ margin:0px; padding:0px;}
 
@@ -945,7 +983,7 @@ font-family: 'Quicksand', cursive; padding:2px; color:#FFFFFF; width:30%; }
 .content1 h2{ font-size:20px; font-family: 'Quicksand', sans-serif;
 font-family: 'Quicksand', cursive; color:#FFFFFF; }
 .content1 p{ padding:25px; font-size:15px;  color:#FFFFFF; font-family: 'Quicksand', serif; }
-.innerServiceTotal{padding:20px; float:none; background-color:#303646; width:auto; margin-right:0%;  text-align:center; margin-bottom:15px; }
+.innerServiceTotal{padding:20px; float:none; background-color:#45a5d1; width:auto; margin-right:0%;  text-align:center; margin-bottom:15px; }
 .innerService{ }
 .innerService h2{ font-size:20px; 
 font-family: 'Quicksand', cursive; color:#FFFFFF; }
@@ -969,4 +1007,33 @@ font-family: 'Quicksand', cursive; color:#FFFFFF; }
 
 .innerEvents{ margin-bottom:15px;}
 .clear{ clear:both;}
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
 }
