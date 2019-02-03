@@ -1,9 +1,4 @@
-@import url('../../fonts.googleapis.com/cssd7fa.css?family=Dancing+Script');
-@import url('../../fonts.googleapis.com/csscafb.css?family=Cinzel');
-@import url('../../fonts.googleapis.com/css3f04.css?family=Oswald');
-@import url('../../fonts.googleapis.com/css032e.css?family=Charmonman|Oswald');
-@import url('../../fonts.googleapis.com/css6cc4.css?family=Cormorant+Garamond');
-@import url('../../fonts.googleapis.com/css55d0.css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
 body{ margin:0px; padding:0px;}
 
 #banner{ margin-top:-145px; }
@@ -12,7 +7,7 @@ body{ margin:0px; padding:0px;}
 
 .topHead{ background-color:rgba(0,0,0,0.7);  z-index:9999999; position:relative; padding:8px 0px 16px 8px; }
 .topHead1{ background-color:rgba(0,0,0,0.6);  padding:8px 0px 10px 8px; }
-#topHeadDiv{ margin-bottom:0px; width:90%; font-weight:bold; margin:auto; color:#FFFFFF; font-family:"Century Gothic", Chiller; font-size:12px;}
+#topHeadDiv{ margin-bottom:0px; width:90%; font-weight:bold; margin:auto; color:#FFFFFF; font-family:"Quicksand", Chiller; font-size:12px;}
 #header{background-color:rgba(255,255,255,0.8);    height:100px; z-index:9999999; position:relative;  padding-bottom:20px;  background-repeat:no-repeat;  z-index:9999999; margin-top:0px; position:relative;  }
 #header1{   background-color:rgba(255,255,255,0.8);   height:100px; z-index:9999999; position:relative;  padding-bottom:20px;  background-repeat:no-repeat; }
 #banner{ }
@@ -22,13 +17,13 @@ body{ margin:0px; padding:0px;}
 #logo img{ width:70px;}
 #menu{ float:right; margin-top:25px; }
 .content { margin-top:250px;}
-.content h1{font-family: 'Oswald', sans-serif;
-font-family: 'Charmonman', cursive; color:#000000; font-weight:bold; text-align:center;}
+.content h1{font-family: 'Quicksand', sans-serif;
+font-family: 'Quicksand', cursive; color:#000000; font-weight:bold; text-align:center;}
 .content1 { margin-top:250px;}
-.content1 h2{font-family: 'Oswald', sans-serif;
-font-family: 'Charmonman', cursive; color:#000000; font-weight:bold; text-align:center;}
-#about p{font-family:"Century Gothic", Chiller; color:#000000;  }
-#about h2{font-family: 'Oswald', sans-serif; color:#CC9900; font-size:30px;}
+.content1 h2{font-family: 'Quicksand', sans-serif;
+font-family: 'Quicksand', cursive; color:#000000; font-weight:bold; text-align:center;}
+#about p{font-family:"Quicksand", Chiller; color:#000000;  }
+#about h2{font-family: 'Quicksand', sans-serif; color:#CC9900; font-size:30px;}
 @font-face {
 	font-weight: normal;
 	font-style: normal;
@@ -53,7 +48,6 @@ font-family: 'Charmonman', cursive; color:#000000; font-weight:bold; text-align:
 .grid figure { overflow:hidden;
 	position: relative;
 	float: left;
-	overflow: hidden;
 	margin: 20px 1%;
 	
 	max-width:370px; 
@@ -106,7 +100,7 @@ font-family: 'Charmonman', cursive; color:#000000; font-weight:bold; text-align:
 	opacity: 0;
 }
 
-.grid figure h2 { font-family:"Century Gothic", Chiller; 
+.grid figure h2 { font-family:"Quicksand", Chiller; 
 	word-spacing: -0.15em;
 	font-weight: 300;
 }
@@ -182,6 +176,7 @@ figure.effect-chico:hover p {
 .grid1 {
 	position: relative;
 	margin: 0 auto;
+	margin-top:200px;
 	padding: 1em 0 4em;
 	max-width: 1200px;
 	list-style: none;
@@ -245,7 +240,7 @@ figure.effect-chico:hover p {
 	opacity: 0;
 }
 
-.grid1 figure h2 { font-family:"Century Gothic", Chiller; 
+.grid1 figure h2 { font-family:"Quicksand", Chiller; 
 	word-spacing: -0.15em;
 	font-weight: 300; margin-top:20px;
 }
@@ -261,7 +256,7 @@ figure.effect-chico:hover p {
 
 .grid1 figure p {
 	letter-spacing: 1px;
-	font-size: 68.5%; font-family:"Century Gothic", Chiller; font-weight:bold;
+	font-size: 68.5%; font-family:"Quicksand", Chiller; font-weight:bold;
 }
 
 
@@ -322,18 +317,18 @@ figure.effect-moses:hover img {
 #rightDiv{ float:right; width:47%;   background-repeat:no-repeat; height:500px;}
 #rightDiv h2{cursive; color:#FBEEC1;}
 #imageBottom{ margin-top:30px;}
-#imageBottom h3{ font-family: 'Oswald', sans-serif; color:#FFFFFF; z-index:9999999; position:relative; }
+#imageBottom h3{ font-family: 'Quicksand', sans-serif; color:#FFFFFF; z-index:9999999; position:relative; }
 #imageBottom img:hover{ opacity:2; cursor:auto; }
 #heading{ padding-top:-60px; }
 #contents{ margin-top:-550px;}
 #contents h1{ font-size:20px; }
-#contents p{ padding:25px; font-size:15px; color:#FFFFFF; font-family: 'Cormorant Garamond', serif; }
-.btn4{ background-color:transparent; border:solid 1px #FFFFFF; font-family: 'Oswald', sans-serif;
-font-family: 'Charmonman', cursive; padding:7px; color:#FFFFFF; width:30%; }
+#contents p{ padding:25px; font-size:15px; color:#FFFFFF; font-family: 'Quicksand', serif; }
+.btn4{ background-color:transparent; border:solid 1px #FFFFFF; font-family: 'Quicksand', sans-serif;
+font-family: 'Quicksand', cursive; padding:2px; color:#FFFFFF; width:30%; }
 .btn4:hover{ background-color:#FFFFFF; color:#000000;}
 .sliderDesign{ text-align:center; padding-bottom:0px; padding:0px; margin-top:-10px;}
-.sliderDesign h1{  text-align:center; font-family: 'Charmonman', cursive; font-size:35px; font-weight:normal; margin-top:0px; padding-top:100px; margin-bottom:0px; font-weight:bold;}
-.sliderDesign h3{ text-align:center; text-transform:uppercase; font-family:"Century Gothic", Chiller;  font-size:18px;}
+.sliderDesign h1{  text-align:center; font-family: 'Quicksand', cursive; font-size:35px; font-weight:normal; margin-top:0px; padding-top:100px; margin-bottom:0px; font-weight:bold;}
+.sliderDesign h3{ text-align:center; text-transform:uppercase; font-family:"Quicksand", Chiller;  font-size:18px;}
 .carousel {
 	width:auto;
 	margin: 0 auto;
@@ -361,12 +356,12 @@ font-family: 'Charmonman', cursive; padding:7px; color:#FFFFFF; width:30%; }
 	display: block;
 	border-radius: 50%;
 }
-.carousel .testimonial { color:#000000; font-family:"Century Gothic", Chiller;	
+.carousel .testimonial { color:#000000; font-family:"Quicksand", Chiller;	
 	padding: 30px 0 10px;
 }
 .carousel .overview {	
 	text-align: center;
-	padding-bottom: 5px; color:#EFE192; font-weight:bold; font-family:"Century Gothic", Chiller;
+	padding-bottom: 5px; color:#EFE192; font-weight:bold; font-family:"Quicksand", Chiller;
 }
 .carousel .overview b {
 	color:#FFFFFF;
@@ -415,35 +410,35 @@ font-family: 'Charmonman', cursive; padding:7px; color:#FFFFFF; width:30%; }
 	border: none;
 	background: #888;		
 }
-.testimonialTotal{  background-image:url(../images/bg.jpg); height:auto; padding:20px 0px 0px 0px; }
-.testimonialTotal h1{font-family:"Century Gothic", Chiller; text-align:center; color:#FFFFFF; text-transform:uppercase; margin-bottom:10px;}
+.testimonialTotal{  background-image:url(../images/backgrounds/client-speak-bg.jpg); height:auto; padding:20px 0px 0px 0px; }
+.testimonialTotal h1{font-family:"Quicksand", Chiller; text-align:center; color:#FFFFFF; text-transform:uppercase; margin-bottom:10px;}
 	.testimonialInner{  width:65%; margin:auto; padding:30px;  }
-	.contentTest p{ color:#FFFFFF; font-family:"Century Gothic", Chiller;}
+	.contentTest p{ color:#FFFFFF; font-family:"Quicksand", Chiller;}
 	#contactDiv{ width:80%; margin:auto; padding-bottom:60px; }
-#contactDiv h1{font-family: "Oswald", sans-serif; color:#B7005B; text-align:center; margin-bottom:6px;}
+#contactDiv h1{font-family: "Quicksand", sans-serif; color:#B7005B; text-align:center; margin-bottom:6px;}
 #contactDetails{ padding-top:0px; margin-top:100px;}
 #leftContact{ float:left; width:50%;}
 #rightContact{ float:right; width:47%;}
-.textBox{ width:100%; background-color:#F4F3F3; padding:12px; border:none; margin-bottom:2%; font-family: 'Charmonman', cursive; }
-.textBox1{ width:48.6%; margin-right:1%; background-color:#F4F3F3; padding:12px; border:none; margin-bottom:2%; font-family: 'Montserrat', sans-serif;}
+.textBox{ width:100%; background-color:#F4F3F3; padding:12px; border:none; margin-bottom:2%; font-family: 'Quicksand', cursive; }
+.textBox1{ width:48.6%; margin-right:1%; background-color:#F4F3F3; padding:12px; border:none; margin-bottom:2%; font-family: 'Quicksand', sans-serif;}
 .btn1:hover{ background-color:#666666; color:#FFFFFF;}
-.btn2{ background-color:#000000; border:none; color:#FFFFFF; padding:10px; width:10%; border-radius:3px;  font-family: "Oswald", sans-serif; margin-top:15px;}
+.btn2{ background-color:#000000; border:none; color:#FFFFFF; padding:10px; width:10%; border-radius:3px;  font-family: "Quicksand", sans-serif; margin-top:15px;}
 .btn2:hover{background-color:#B7005B;  color:#FFFFFF;}
-.btn1{  background-color:#000000; border:none; color:#FFFFFF; padding:14px; width:20%; font-family: "Oswald", sans-serif;}
-#footer{ background-color:#000000; height:auto; margin-top:0px; padding-top:40px; text-align:left; padding-bottom:50px;}
+.btn1{  background-color:#000000; border:none; color:#FFFFFF; padding:14px; width:20%; font-family: "Quicksand", sans-serif;}
+#footer{ background-color:#F172A1; height:auto; margin-top:0px; padding-top:10px; text-align:left; padding-bottom:10px;}
 #footerDiv{ width:80%; margin:auto; }
-.innerFoot{ color:#FFFFFF; float:left; width:31%; margin-right:3%; }
-.innerFoot:nth-child(3){ margin-right:0px;}
-.innerFoot h2{ color:#FFFFFF; border-bottom:solid 1px #333333; padding-bottom:10px; font-family: "Oswald", sans-serif; text-transform:uppercase; font-size:20px; }
+.innerFoot{ color:#FFFFFF; float:left; width:20%; margin-right:3%; }
+.innerFoot:nth-child(4){ margin-right:0px;}
+.innerFoot h2{ color:#FFFFFF; border-bottom:solid 1px #333333; padding-bottom:10px; font-family: "Quicksand", sans-serif; text-transform:uppercase; font-size:20px; }
 
 
-.innerFoot p{ line-height:24px; font-size:14px; font-family:"Century Gothic", Chiller; letter-spacing:0.2px;}
-.innerFoot h1{font-family: 'Montserrat', sans-serif; text-align:left;    color:#FFFFFF; font-size:20px;}
-.innerFoot h3{font-family: 'Charmonman', cursive; color:#F9F18C; }
-.innerFoot a{ text-decoration:none; color:#FFFFFF; font-family:"Century Gothic", Chiller; }
+.innerFoot p{ line-height:24px; font-size:14px; font-family:"Quicksand", Chiller; letter-spacing:0.2px;}
+.innerFoot h1{font-family: 'Quicksand', sans-serif; text-align:left;    color:#FFFFFF; font-size:20px;}
+.innerFoot h3{font-family: 'Quicksand', cursive; color:#F0EBF4; }
+.innerFoot a{ text-decoration:none; color:#FFFFFF; font-family:"Quicksand", Chiller; }
 .innerFoot a:hover{ text-decoration:none; color:#FF6600;}
-#bottomFootContainer{background-color:#896D2C; font-family: 'Charmonman', cursive;  padding:10px;}
-#bottomFoot{ width:80%; margin:auto;  text-align:center; letter-spacing:0px; color:#FFFFFF; font-family: 'Charmonman', cursive; font-weight:bold;}
+#bottomFootContainer{background-color:#E64398; font-family: 'Quicksand', cursive;  padding:10px;}
+#bottomFoot{ width:80%; margin:auto;  text-align:center; letter-spacing:0px; color:#FFFFFF; font-family: 'Quicksand', cursive; font-weight:bold;}
 #bottomFoot a{ color:#FFFFFF;}
 #leftFoot{ float:left; }
 #rightFoot{ float:right;  }
@@ -453,7 +448,7 @@ font-family: 'Charmonman', cursive; padding:7px; color:#FFFFFF; width:30%; }
 #bannerInnerPage h2{ color:#FFFFFF; margin-top:0px; padding-top:0px;}
 #bannerInnerPage span{ font-size:16px; color:#FAF284;}
 #bannerInnerPage img{ margin-top:-136px;}
-#headingInner{ margin-top:-100px; padding-left:170px; font-family: 'Charmonman', cursive;font-weight:bold;}
+#headingInner{ margin-top:-100px; padding-left:170px; font-family: 'Quicksand', cursive;font-weight:bold;}
 #headingInner a{ color:#FFFFFF; text-decoration:none;}
 #headingInner a:hover{ color:#FF9900;}
 
@@ -463,27 +458,27 @@ font-family: 'Charmonman', cursive; padding:7px; color:#FFFFFF; width:30%; }
 
 
 .content1{background-color:#303646; float:left; width:32%; margin-right:1%;  text-align:center; border:solid 1px #FFFFFF;}
-.content1 h2{ font-size:20px; font-family: 'Oswald', sans-serif;
-font-family: 'Charmonman', cursive; color:#FFFFFF; }
-.content1 p{ padding:25px; font-size:15px;  color:#FFFFFF; font-family: 'Cormorant Garamond', serif; }
+.content1 h2{ font-size:20px; font-family: 'Quicksand', sans-serif;
+font-family: 'Quicksand', cursive; color:#FFFFFF; }
+.content1 p{ padding:25px; font-size:15px;  color:#FFFFFF; font-family: 'Quicksand', serif; }
 .innerServiceTotal{padding:30px; float:left; background-color:#303646; float:left; width:32%; margin-right:1%;  text-align:center; margin-bottom:15px; }
 .innerService{ }
 .innerService h2{ font-size:20px; 
-font-family: 'Charmonman', cursive; color:#FFFFFF; }
+font-family: 'Quicksand', cursive; color:#FFFFFF; }
 #testimonialPage{ margin-top:30px;}
 #leftContact{}
-#leftContact h3{font-family: 'Charmonman', cursive; color:#755725; }
-#leftContact p{font-family:"Century Gothic", Chiller; }
+#leftContact h3{font-family: 'Quicksand', cursive; color:#755725; }
+#leftContact p{font-family:"Quicksand", Chiller; }
 .gallery{ margin-top:130px; }
-.gallery h1{font-family: 'Charmonman', cursive; color:#755725; text-align:center;  }
+.gallery h1{font-family: 'Quicksand', cursive; color:#755725; text-align:center;  }
 .galleryInner{ margin-bottom:30px;}
 .whychoose{ padding:50px 0px 50px 0px; background-image:url(../images/back.jpg); height:500px; margin-top:-140px; background-attachment:fixed; text-align:center;}
-.whychoose h1{ color:#FFFFFF; font-family: 'Charmonman', cursive; font-size:40px; font-weight:bold; text-align:center; }
-.whychoose h4{ color:#F9F18C; font-family:"Century Gothic", Chiller; text-align:center;}
+.whychoose h1{ color:#FFFFFF; font-family: 'Quicksand', cursive; font-size:40px; font-weight:bold; text-align:center; }
+.whychoose h4{ color:#F0EBF4; font-family:"Quicksand", Chiller; text-align:center;}
 .whychoose img{ background-color:#CDAA40; padding:10px; border-radius:100%;}
-.whychoose h3{ color:#FFFFFF; font-family: 'Charmonman', cursive;}
-.whychoose p{ font-family: 'Montserrat', sans-serif; font-size:12px; line-height:21px; color:#F9F9F9;}
-#serviceContents p{ font-family:"Century Gothic", Chiller;  font-size:13px; line-height:21px; color:#000000; }
+.whychoose h3{ color:#FFFFFF; font-family: 'Quicksand', cursive;}
+.whychoose p{ font-family: 'Quicksand', sans-serif; font-size:12px; line-height:21px; color:#F9F9F9;}
+#serviceContents p{ font-family:"Quicksand", Chiller;  font-size:13px; line-height:21px; color:#000000; }
 .whychooseDiv{ }
 .innerChoose{ margin-top:35px;}
 .sucessfulEvents{ display:none;}
@@ -497,7 +492,7 @@ body{ margin:0px; padding:0px;}
 
 .topHead{ background-color:rgba(0,0,0,0.7);  z-index:9999999; position:relative; padding:8px 0px 10px 8px; }
 .topHead1{ background-color:rgba(0,0,0,0.6);  padding:8px 0px 10px 8px; }
-#topHeadDiv{ margin-bottom:0px; width:auto; font-weight:bold; margin:auto; color:#FFFFFF; font-family:"Century Gothic", Chiller; font-size:12px;}
+#topHeadDiv{ margin-bottom:0px; width:auto; font-weight:bold; margin:auto; color:#FFFFFF; font-family:"Quicksand", Chiller; font-size:12px;}
 #header{background-color:transparent; text-align:center;   height:auto; z-index:9999999; position:relative;  padding-bottom:10px;  background-repeat:no-repeat;  z-index:9999999; margin-top:0px; position:relative;  }
 #header1{   background-color:rgba(255,255,255,0.8);   height:100px; z-index:9999999; position:relative;  padding-bottom:20px;  background-repeat:no-repeat; }
 #banner{ }
@@ -507,8 +502,8 @@ body{ margin:0px; padding:0px;}
 #logo img{ width:50px;}
 #menu{ float:none; margin-top:25px; }
 .content { margin-top:100px;}
-.content h1{font-family: 'Oswald', sans-serif;
-font-family: 'Charmonman', cursive; color:#000000; font-weight:bold; text-align:center;}
+.content h1{font-family: 'Quicksand', sans-serif;
+font-family: 'Quicksand', cursive; color:#000000; font-weight:bold; text-align:center;}
 @font-face {
 	font-weight: normal;
 	font-style: normal;
@@ -533,7 +528,6 @@ font-family: 'Charmonman', cursive; color:#000000; font-weight:bold; text-align:
 .grid figure { overflow:hidden;
 	position: relative;
 	float: left;
-	overflow: hidden;
 	margin: 10px 1%;
 	
 	max-width:100%;
@@ -586,7 +580,7 @@ font-family: 'Charmonman', cursive; color:#000000; font-weight:bold; text-align:
 	opacity: 0;
 }
 
-.grid figure h2 { font-family:"Century Gothic", Chiller; 
+.grid figure h2 { font-family:"Quicksand", Chiller; 
 	word-spacing: -0.15em;
 	font-weight: 300;
 }
@@ -725,7 +719,7 @@ figure.effect-chico:hover p {
 	opacity: 0;
 }
 
-.grid1 figure h2 { font-family:"Century Gothic", Chiller; 
+.grid1 figure h2 { font-family:"Quicksand", Chiller; 
 	word-spacing: -0.15em;
 	font-weight: 300; margin-top:20px;
 }
@@ -741,7 +735,7 @@ figure.effect-chico:hover p {
 
 .grid1 figure p {
 	letter-spacing: 1px;
-	font-size: 68.5%; font-family:"Century Gothic", Chiller; font-weight:bold;
+	font-size: 68.5%; font-family:"Quicksand", Chiller; font-weight:bold;
 }
 
 
@@ -799,24 +793,24 @@ figure.effect-moses:hover p {
 figure.effect-moses:hover img {
 	opacity: 0.6;
 }
-#rightDiv{ float:none; background-color:#303646; padding:10px; width:auto; margin-top:15px; padding-bottom:20px;    height:auto;}
-#rightDiv h2{font-family: 'Oswald', sans-serif; font-size:18px;
-font-family: 'Charmonman', cursive; color:#FAF380;}
+#rightDiv{ float:none; background-color:#8863a8; padding:10px; width:auto; margin-top:15px; padding-bottom:20px;    height:auto;}
+#rightDiv h2{font-family: 'Quicksand', sans-serif; font-size:18px;
+font-family: 'Quicksand', cursive; color:#FAF380;}
 .bg{ display:none;}
 #imageBottom{ margin-top:15px;}
-#imageBottom h3{ font-family: 'Oswald', sans-serif; color:#FFFFFF; z-index:9999999; position:relative; }
+#imageBottom h3{ font-family: 'Quicksand', sans-serif; color:#FFFFFF; z-index:9999999; position:relative; }
 #imageBottom img:hover{ opacity:2; cursor:auto; }
 #heading{ padding-top:0px; }
 
 #contents{ margin-top:0px;}
 #contents h1{ font-size:17px; }
-#contents p{ padding:10px; font-size:13px; color:#FFFFFF; font-family: 'Cormorant Garamond', serif; }
-.btn4{ background-color:transparent; border:solid 1px #FFFFFF; font-family: 'Oswald', sans-serif;
-font-family: 'Charmonman', cursive; padding:7px; color:#FFFFFF; width:30%; }
+#contents p{ padding:10px; font-size:13px; color:#FFFFFF; font-family: 'Quicksand', serif; }
+.btn4{ background-color:transparent; border:solid 1px #FFFFFF; font-family: 'Quicksand', sans-serif;
+font-family: 'Quicksand', cursive; padding:2px; color:#FFFFFF; width:30%; }
 .btn4:hover{ background-color:#FFFFFF; color:#000000;}
 .sliderDesign{ text-align:center; padding-bottom:0px; padding:0px; margin-top:-10px;}
-.sliderDesign h1{  text-align:center; font-family: 'Charmonman', cursive; font-size:25px; font-weight:normal; margin-top:0px; padding-top:0px; margin-bottom:0px; font-weight:bold;}
-.sliderDesign h3{ text-align:center; text-transform:uppercase; font-family:"Century Gothic", Chiller;  font-size:18px;}
+.sliderDesign h1{  text-align:center; font-family: 'Quicksand', cursive; font-size:25px; font-weight:normal; margin-top:0px; padding-top:0px; margin-bottom:0px; font-weight:bold;}
+.sliderDesign h3{ text-align:center; text-transform:uppercase; font-family:"Quicksand", Chiller;  font-size:18px;}
 .carousel {
 	width:auto;
 	margin: 0 auto;
@@ -845,12 +839,12 @@ font-family: 'Charmonman', cursive; padding:7px; color:#FFFFFF; width:30%; }
 	display: block;
 	border-radius: 50%;
 }
-.carousel .testimonial { color:#000000; font-family:"Century Gothic", Chiller;	
+.carousel .testimonial { color:#000000; font-family:"Quicksand", Chiller;	
 	padding: 30px 0 10px;
 }
 .carousel .overview {	
 	text-align: center;
-	padding-bottom: 5px; color:#EFE192; font-weight:bold; font-family:"Century Gothic", Chiller;
+	padding-bottom: 5px; color:#EFE192; font-weight:bold; font-family:"Quicksand", Chiller;
 }
 .carousel .overview b {
 	color:#FFFFFF;
@@ -899,35 +893,35 @@ font-family: 'Charmonman', cursive; padding:7px; color:#FFFFFF; width:30%; }
 	border: none;
 	background: #888;		
 }
-.testimonialTotal{  background-image:url(../images/bg.jpg); height:500px; padding:20px 0px 0px 0px; }
-.testimonialTotal h1{font-family:"Century Gothic", Chiller; text-align:center; color:#FFFFFF; text-transform:uppercase; margin-bottom:10px;}
+.testimonialTotal{  background-image:url(../images/backgrounds/client-speak-bg.jpg); height:500px; padding:20px 0px 0px 0px; }
+.testimonialTotal h1{font-family:"Quicksand", Chiller; text-align:center; color:#FFFFFF; text-transform:uppercase; margin-bottom:10px;}
 	.testimonialInner{  width:100%; margin:auto; padding:20px;  }
-	.contentTest p{ color:#FFFFFF; font-family:"Century Gothic", Chiller;}
+	.contentTest p{ color:#FFFFFF; font-family:"Quicksand", Chiller;}
 	#contactDiv{ width:80%; margin:auto; padding-bottom:60px; }
-#contactDiv h1{font-family: "Oswald", sans-serif; color:#B7005B; text-align:center; margin-bottom:6px;}
+#contactDiv h1{font-family: "Quicksand", sans-serif; color:#B7005B; text-align:center; margin-bottom:6px;}
 #contactDetails{ padding-top:0px; margin-top:40px;}
 #leftContact{ float:none; width:auto;}
 #rightContact{ float:none; width:auto; margin-top:30px;}
-.textBox{ width:100%; background-color:#F4F3F3; padding:12px; border:none; margin-bottom:2%; font-family: 'Montserrat', sans-serif;}
-.textBox1{ width:48.6%; margin-right:1%; background-color:#F4F3F3; padding:12px; border:none; margin-bottom:2%; font-family: 'Montserrat', sans-serif;}
+.textBox{ width:100%; background-color:#F4F3F3; padding:12px; border:none; margin-bottom:2%; font-family: 'Quicksand', sans-serif;}
+.textBox1{ width:48.6%; margin-right:1%; background-color:#F4F3F3; padding:12px; border:none; margin-bottom:2%; font-family: 'Quicksand', sans-serif;}
 .btn1:hover{ background-color:#666666; color:#FFFFFF;}
-.btn2{ background-color:#000000; border:none; color:#FFFFFF; padding:10px; width:10%; border-radius:3px;  font-family: "Oswald", sans-serif; margin-top:15px;}
+.btn2{ background-color:#000000; border:none; color:#FFFFFF; padding:10px; width:10%; border-radius:3px;  font-family: "Quicksand", sans-serif; margin-top:15px;}
 .btn2:hover{background-color:#B7005B;  color:#FFFFFF;}
-.btn1{  background-color:#000000; border:none; color:#FFFFFF; padding:14px; width:auto; font-family: "Oswald", sans-serif; margin-top:0px;}
-#footer{ background-color:#000000; height:auto; margin-top:0px; padding-top:40px; text-align:left; padding-bottom:50px;}
+.btn1{  background-color:#000000; border:none; color:#FFFFFF; padding:14px; width:auto; font-family: "Quicksand", sans-serif; margin-top:0px;}
+#footer{ background-color:#F172A1; height:auto; margin-top:0px; padding-top:10px; text-align:left; padding-bottom:10px;}
 #footerDiv{ width:80%; margin:auto; }
 .innerFoot{ color:#FFFFFF; float:none; width:auto; margin-right:0%; }
-.innerFoot:nth-child(3){ margin-right:0px;}
-.innerFoot h2{ color:#FFFFFF; border-bottom:solid 1px #333333; padding-bottom:10px; font-family: "Oswald", sans-serif; text-transform:uppercase; font-size:20px; }
+.innerFoot:nth-child(4){ margin-right:0px;}
+.innerFoot h2{ color:#FFFFFF; border-bottom:solid 1px #333333; padding-bottom:10px; font-family: "Quicksand", sans-serif; text-transform:uppercase; font-size:20px; }
 
 
-.innerFoot p{ line-height:24px; font-size:14px; font-family:"Century Gothic", Chiller; letter-spacing:0.2px;}
-.innerFoot h1{font-family: 'Montserrat', sans-serif; text-align:left;    color:#FFFFFF; font-size:20px;}
-.innerFoot h3{font-family: 'Charmonman', cursive; color:#F9F18C; }
-.innerFoot a{ text-decoration:none; color:#FFFFFF; font-family:"Century Gothic", Chiller; }
+.innerFoot p{ line-height:24px; font-size:14px; font-family:"Quicksand", Chiller; letter-spacing:0.2px;}
+.innerFoot h1{font-family: 'Quicksand', sans-serif; text-align:left;    color:#FFFFFF; font-size:20px;}
+.innerFoot h3{font-family: 'Quicksand', cursive; color:#F0EBF4; }
+.innerFoot a{ text-decoration:none; color:#FFFFFF; font-family:"Quicksand", Chiller; }
 .innerFoot a:hover{ text-decoration:none; color:#FF6600;}
-#bottomFootContainer{background-color:#896D2C; font-family: 'Charmonman', cursive;  padding:10px;}
-#bottomFoot{ width:80%; margin:auto;  text-align:center; letter-spacing:0px; color:#FFFFFF; font-family: 'Charmonman', cursive; font-weight:bold;}
+#bottomFootContainer{background-color:#E64398; font-family: 'Quicksand', cursive;  padding:10px;}
+#bottomFoot{ width:80%; margin:auto;  text-align:center; letter-spacing:0px; color:#FFFFFF; font-family: 'Quicksand', cursive; font-weight:bold;}
 #bottomFoot a{ color:#FFFFFF;}
 #leftFoot{ float:none; }
 #rightFoot{ float:none;  }
@@ -938,7 +932,7 @@ font-family: 'Charmonman', cursive; padding:7px; color:#FFFFFF; width:30%; }
 #bannerInnerPage h2{ color:#FFFFFF; font-size:18px; margin-top:0px; padding-top:0px;}
 #bannerInnerPage span{ font-size:14px; color:#FAF284;}
 #bannerInnerPage img{ margin-top:-136px;}
-#headingInner{ margin-top:7px; padding-left:10px; font-family: 'Charmonman', cursive; font-size:20px; font-weight:bold;}
+#headingInner{ margin-top:7px; padding-left:10px; font-family: 'Quicksand', cursive; font-size:20px; font-weight:bold;}
 #headingInner a{ color:#FFFFFF; text-decoration:none;}
 #headingInner a:hover{ color:#FF9900;}
 
@@ -948,27 +942,27 @@ font-family: 'Charmonman', cursive; padding:7px; color:#FFFFFF; width:30%; }
 
 
 .content1{background-color:#303646; float:none; width:auto;  margin-right:0%;  text-align:center; border:solid 1px #FFFFFF;}
-.content1 h2{ font-size:20px; font-family: 'Oswald', sans-serif;
-font-family: 'Charmonman', cursive; color:#FFFFFF; }
-.content1 p{ padding:25px; font-size:15px;  color:#FFFFFF; font-family: 'Cormorant Garamond', serif; }
+.content1 h2{ font-size:20px; font-family: 'Quicksand', sans-serif;
+font-family: 'Quicksand', cursive; color:#FFFFFF; }
+.content1 p{ padding:25px; font-size:15px;  color:#FFFFFF; font-family: 'Quicksand', serif; }
 .innerServiceTotal{padding:20px; float:none; background-color:#303646; width:auto; margin-right:0%;  text-align:center; margin-bottom:15px; }
 .innerService{ }
 .innerService h2{ font-size:20px; 
-font-family: 'Charmonman', cursive; color:#FFFFFF; }
+font-family: 'Quicksand', cursive; color:#FFFFFF; }
 #testimonialPage{ margin-top:30px;}
 #leftContact{}
-#leftContact h3{font-family: 'Charmonman', cursive; color:#755725; }
-#leftContact p{font-family:"Century Gothic", Chiller; }
+#leftContact h3{font-family: 'Quicksand', cursive; color:#755725; }
+#leftContact p{font-family:"Quicksand", Chiller; }
 .gallery{ margin-top:50px; }
-.gallery h1{font-family: 'Charmonman', cursive; color:#755725; text-align:center;  }
+.gallery h1{font-family: 'Quicksand', cursive; color:#755725; text-align:center;  }
 .galleryInner{ margin-bottom:30px;}
 .whychoose{ padding:50px 0px 50px 0px; background-image:url(../images/back.jpg); height:auto; margin-top:0px; background-attachment:fixed; text-align:center;}
-.whychoose h1{ color:#FFFFFF; font-family: 'Charmonman', cursive; font-size:30px; margin-bottom:20px; font-weight:bold; text-align:center; }
-.whychoose h4{ color:#F9F18C; font-family:"Century Gothic", Chiller; text-align:center;}
+.whychoose h1{ color:#FFFFFF; font-family: 'Quicksand', cursive; font-size:30px; margin-bottom:20px; font-weight:bold; text-align:center; }
+.whychoose h4{ color:#F0EBF4; font-family:"Quicksand", Chiller; text-align:center;}
 .whychoose img{ background-color:#CDAA40; padding:10px; border-radius:100%;}
-.whychoose h3{ color:#FFFFFF; font-family: 'Charmonman', cursive;}
-.whychoose p{ font-family: 'Montserrat', sans-serif; font-size:12px; line-height:21px; color:#F9F9F9;}
-#serviceContents p{ font-family:"Century Gothic", Chiller;  font-size:13px; line-height:21px; color:#000000; }
+.whychoose h3{ color:#FFFFFF; font-family: 'Quicksand', cursive;}
+.whychoose p{ font-family: 'Quicksand', sans-serif; font-size:12px; line-height:21px; color:#F9F9F9;}
+#serviceContents p{ font-family:"Quicksand", Chiller;  font-size:13px; line-height:21px; color:#000000; }
 .whychooseDiv{ }
 .innerChoose{ margin-top:35px;}
 .sucessfulEvents{ display:block; height:auto; padding-bottom:30px;}
