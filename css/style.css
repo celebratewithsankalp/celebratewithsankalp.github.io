@@ -1069,9 +1069,3 @@ table {
     text-align: center;
     font-size: 5vw;
 }
-
-.landscape-img {
-    max-width: 100%;
-    height: auto;
-    overflow: hidden;
-}
