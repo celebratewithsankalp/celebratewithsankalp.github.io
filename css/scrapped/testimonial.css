@@ -1,0 +1,69 @@
+/*-------------------------------*/
+/*      Code snippet by          */
+/*      @maridlcrmn              */
+/*-------------------------------*/
+
+
+section {
+    padding-top:0px; 
+    padding-bottom: 10px; margin-top:-40px;
+}
+.item{ height:360px;}
+.item p{ font-size:15px; padding-top:20px;}
+.item h2{ color:#FFFFCC; font-family: 'Dancing Script', cursive;}
+.item span{ font-family:Calibri; color:#FFFFFF;}
+.quote {
+    color: rgba(0,0,0,.1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*-------------------------------*/
+/*    Carousel Fade Transition   */
+/*-------------------------------*/
+
+#fade-quote-carousel.carousel {
+  padding-bottom: 60px;
+}
+#fade-quote-carousel.carousel .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-inner .active {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-indicators {
+  bottom: 10px;
+}
+#fade-quote-carousel.carousel .carousel-indicators > li {
+  background-color: #e84a64;
+  border: none;
+}
+#fade-quote-carousel blockquote {
+    text-align: center;
+    border: none;
+}
+#fade-quote-carousel .profile-circle {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 100px;
+}
+
+@media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+section { width:100%;
+    padding-top:0px; 
+    padding-bottom: 10px; margin-top:-40px;
+}
+.item{ height:600px; width:100%;}
+.quote {
+    color: rgba(0,0,0,.1);
+    text-align:justify;
+    margin-bottom: 30px;
+}
+.item p{ font-size:12px; padding-top:20px;}
