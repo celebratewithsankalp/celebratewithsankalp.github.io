@@ -735,6 +735,7 @@ figure.effect-moses:hover img {
     padding-top: 10px;
     text-align: left;
     padding-bottom: 10px;
+    width: 100vw;
 }
 
 #footerDiv {
@@ -1067,4 +1068,10 @@ table {
 .data1 {
     text-align: center;
     font-size: 5vw;
+}
+
+.landscape-img {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
 }
