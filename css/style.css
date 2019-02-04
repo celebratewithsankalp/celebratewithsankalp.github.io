@@ -4,7 +4,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: #F0EBF4;
+    background-color: #f6f1ed;
 }
 
 #banner {
@@ -35,14 +35,15 @@ body {
 }
 
 #header {
-    background-color: rgba(161,195,209, 0.8);
+    background-color: #1b9cb1;
     height: auto;
     z-index: 9999999;
     position: relative;
     padding-bottom: 0vw;
     background-repeat: no-repeat;
     margin-top: 0vw;
-    text-align-all: center;
+    text-align: center;
+    vertical-align: center;
 }
 
 #header1 {
@@ -422,6 +423,18 @@ figure.effect-moses:hover img {
     opacity: 0.6;
 }
 
+#leftDiv {
+    float: left;
+    width: 47%;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-right: 2vw;
+}
+
+#leftDiv h2 {
+    color: #FBEEC1;
+}
+
 #rightDiv {
     float: right;
     width: 47%;
@@ -430,7 +443,6 @@ figure.effect-moses:hover img {
 }
 
 #rightDiv h2 {
-    font-family: cursive;
     color: #FBEEC1;
 }
 
@@ -472,8 +484,6 @@ figure.effect-moses:hover img {
 .btn4 {
     background-color: transparent;
     border: solid 1px #FFFFFF;
-    font-family: 'Quicksand', sans-serif;
-    font-family: 'Quicksand', cursive;
     padding: 2px;
     color: #FFFFFF;
     width: 30%;
@@ -620,15 +630,14 @@ figure.effect-moses:hover img {
 }
 
 .testimonialTotal {
-    background-image: url(../images/backgrounds/client-speak-bg.jpg);
+    /*background-image: url(../images/backgrounds/client-speak-bg.jpg);*/
     height: auto;
     padding: 20px 0px 0px 0px;
 }
 
 .testimonialTotal h1 {
-    font-family: "Quicksand", Chiller;
     text-align: center;
-    color: #FFFFFF;
+    color: #000000;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
@@ -871,7 +880,7 @@ figure.effect-moses:hover img {
 
 
 .content1 {
-    background-color: #303646;
+    background-color: #f6f1ed;
     float: left;
     width: 32%;
     margin-right: 1%;

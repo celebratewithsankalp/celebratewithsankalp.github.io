@@ -6,7 +6,7 @@
 @media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
     #cssmenu {
         width: 100%;
-        background-color: #A1C3D1;
+        background-color: #1b9cb1;
     }
 
     #cssmenu ul {
@@ -32,7 +32,7 @@
     #cssmenu ul li a,
     #cssmenu ul ul li a {
         width: 100%;
-        color: #000000;
+        color: #ffffff;
         margin: 0px;
         padding: 10px;
         border-bottom: 0;
@@ -51,7 +51,7 @@
     }
 
     #cssmenu ul ul li a {
-        color: #000000;
+        color: #ffffff;
         background: none;
     }
 
@@ -59,6 +59,7 @@
     #cssmenu ul ul li.active > a {
         transform: scale(1.2);
         font-weight: bold;
+        color: #000000;
     }
 
     #cssmenu ul ul,
@@ -81,7 +82,7 @@
     #cssmenu #menu-button {
         display: block;
         padding: 17px;
-        color: #000000;
+        color: #ffffff;
         cursor: pointer;
         font-size: 12px;
         text-transform: uppercase;
@@ -95,8 +96,8 @@
         display: block;
         height: 4px;
         width: 20px;
-        border-top: 2px solid #000000;
-        border-bottom: 2px solid #000000;
+        border-top: 2px solid #ffffff;
+        border-bottom: 2px solid #ffffff;
         content: '';
     }
 
@@ -107,7 +108,7 @@
         display: block;
         height: 2px;
         width: 20px;
-        background: #000000;
+        background: #ffffff;
         content: '';
     }
 
@@ -116,7 +117,7 @@
         border: 0;
         height: 2px;
         width: 15px;
-        background: #000000;
+        background: #ffffff;
         -webkit-transform: rotate(45deg);
         -moz-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
@@ -126,7 +127,7 @@
 
     #cssmenu #menu-button.menu-opened:before {
         top: 23px;
-        background: #000000;
+        background: #ffffff;
         width: 15px;
         -webkit-transform: rotate(-45deg);
         -moz-transform: rotate(-45deg);
@@ -163,7 +164,7 @@
         width: 8px;
         height: 2px;
         display: block;
-        background: #000000;
+        background: #ffffff;
         content: '';
     }
 
@@ -173,7 +174,7 @@
     }
 
     #cssmenu .submenu-button.submenu-opened:after {
-        background: #000000;
+        background: #ffffff;
     }
 
     #cssmenu .submenu-button:before {
@@ -183,7 +184,7 @@
         display: block;
         width: 2px;
         height: 8px;
-        background: #000000;
+        background: #ffffff;
         content: '';
     }
 

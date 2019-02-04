@@ -37,7 +37,11 @@
 
 #cssmenu {
 
+}
 
+#cssmenu ul {
+    float: right;
+    left: -25%;
 }
 
 #cssmenu > ul > li {
@@ -69,7 +73,7 @@
     font-size: 16px;
     letter-spacing: 1px;
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
 
 
 }
@@ -78,6 +82,7 @@
     /*color: #896D2C;*/
     transform: scale(1.2);
     font-weight: bold;
+    color: #000000;
 
 }
 

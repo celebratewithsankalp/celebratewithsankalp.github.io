@@ -6,7 +6,7 @@
     body {
         margin: 0px;
         padding: 0px;
-        background-color: #F0EBF4;
+        background-color: #f6f1ed;
     }
 
     #banner {
@@ -37,7 +37,7 @@
     }
 
     #header {
-        background-color: transparent;
+        background-color: #1b9cb1;
         text-align: center;
         height: auto;
         z-index: 9999999;
@@ -408,25 +408,40 @@
         opacity: 0.6;
     }
 
+    #leftDiv {
+        float: none;
+        background-color: #1b9cb1;
+        /*padding: 10px;*/
+        width: auto;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        padding-bottom: 2vw;
+        height: auto;
+    }
+
+    #leftDiv h2 {
+        font-size: 18px;
+        color: #FBEEC1;
+    }
+
     #rightDiv {
         float: none;
-        background-color: #8863a8;
+        background-color: #1b9cb1;
         padding: 10px;
         width: auto;
-        margin-top: 15px;
+        margin-top: 20px;
         padding-bottom: 20px;
         height: auto;
     }
 
     #rightDiv h2 {
-        font-family: 'Quicksand', sans-serif;
         font-size: 18px;
-        font-family: 'Quicksand', cursive;
         color: #FAF380;
     }
 
     .bg {
         display: none;
+        background-color: #f6f1ed;
     }
 
     #imageBottom {
@@ -467,8 +482,6 @@
     .btn4 {
         background-color: transparent;
         border: solid 1px #FFFFFF;
-        font-family: 'Quicksand', sans-serif;
-        font-family: 'Quicksand', cursive;
         padding: 2px;
         color: #FFFFFF;
         width: 30%;
@@ -621,15 +634,14 @@
     }
 
     .testimonialTotal {
-        background-image: url(../images/backgrounds/client-speak-bg.jpg);
+        /*background-image: url(../images/backgrounds/client-speak-bg.jpg);*/
         height: 500px;
         padding: 20px 0px 0px 0px;
     }
 
     .testimonialTotal h1 {
-        font-family: "Quicksand", Chiller;
         text-align: center;
-        color: #FFFFFF;
+        color: #000000;
         text-transform: uppercase;
         margin-bottom: 10px;
     }
