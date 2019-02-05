@@ -195,8 +195,8 @@
     #team-section .team-member-wrapper .float-left,
     #project-section .project-gallery .grid-item,
     #service-section .row [class*="col-"], #skill-section [class*="col-"],
-    #pricing-section [class*="col-"], #contact-section .send-message,
-    #contact-section .contact-address-content [class*="col-"],
+    #pricing-section [class*="col-"], #contact .send-message,
+    #contact .contact-address-content [class*="col-"],
     #blog-section [class*="col-"], .theme-main-header .container,
     .blog-details-page .p-fix {
         padding-left: 0;
