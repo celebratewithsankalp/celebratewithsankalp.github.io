@@ -65,7 +65,7 @@
         width: 95%;
     }
 
-    #our-client .client-slider p {
+    #testimonials .client-slider p {
         width: 70%;
     }
 
@@ -106,7 +106,7 @@
         width: 50%;
     }
 
-    #our-client .client-slider p {
+    #testimonials .client-slider p {
         width: 90%;
     }
 
@@ -188,7 +188,7 @@
 
     #team-section .team-member-wrapper .float-left,
     #team-section .team-member-wrapper .float-left img,
-    #our-client .client-slider p {
+    #testimonials .client-slider p {
         width: 100%;
     }
 

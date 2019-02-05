@@ -277,7 +277,7 @@ input, textarea {
 #team-section .team-member-wrapper .single-team-member .member-name h6,
 #team-section .team-member-wrapper .single-team-member .member-name p,
 #team-section .team-member-wrapper .single-team-member .member-name ul,
-#our-client .owl-theme .owl-dots .owl-dot span {
+#testimonials .owl-theme .owl-dots .owl-dot span {
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out;
@@ -356,8 +356,8 @@ input, textarea {
 }
 
 .p-color-bg, .theme-title h2:before, #about-us .single-about-content:hover .icon,
-#skill-section .codeconSkillbar .skillBar, #our-client .owl-theme .owl-dots .owl-dot.active span,
-#our-client .owl-theme .owl-dots .owl-dot:hover span,
+#skill-section .codeconSkillbar .skillBar, #testimonials .owl-theme .owl-dots .owl-dot.active span,
+#testimonials .owl-theme .owl-dots .owl-dot:hover span,
 .blog-details-post-wrapper .comment-area .single-comment .comment button:hover {
     background: #d73e4d;
 }
@@ -366,7 +366,7 @@ input, textarea {
 #service-section .single-service-content:hover, #project-section .project-menu ul li.active,
 #project-section .project-menu ul li:hover, .page-middle-banner .opacity a,
 #team-section .team-member-wrapper .single-team-member .img .opacity h4, #pricing-section .single-price-table a,
-#our-client .owl-theme .owl-dots .owl-dot.active span, #our-client .owl-theme .owl-dots .owl-dot:hover span,
+#testimonials .owl-theme .owl-dots .owl-dot.active span, #testimonials .owl-theme .owl-dots .owl-dot:hover span,
 #contact .contact-address-content .left-side ul li .icon, #contact .send-message form button,
 .sidebar-tags ul li a:hover, .blog-details-post-wrapper .post-comment form button,
 .blog-details-post-wrapper .post-comment textarea:focus, .blog-details-post-wrapper .post-comment input:focus {
@@ -1119,18 +1119,18 @@ input, textarea {
 ====================================================================
 
  ***/
-#our-client .client-slider {
+#testimonials .client-slider {
     text-align: center;
     margin: 58px 0 50px 0;
 }
 
-#our-client .client-slider img {
+#testimonials .client-slider img {
     margin: 0 auto;
     border-radius: 50%;
     max-width: 50%;
 }
 
-#our-client .client-slider p {
+#testimonials .client-slider p {
     font-size: 18px;
     line-height: 28px;
     color: #343434;
@@ -1138,12 +1138,12 @@ input, textarea {
     margin: 33px auto 24px auto;
 }
 
-#our-client .client-slider h6 {
+#testimonials .client-slider h6 {
     text-transform: capitalize;
     margin-bottom: 45px;
 }
 
-#our-client .owl-theme .owl-dots .owl-dot span {
+#testimonials .owl-theme .owl-dots .owl-dot span {
     width: 13px;
     height: 13px;
     background: #fff;
