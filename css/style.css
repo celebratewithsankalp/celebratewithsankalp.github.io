@@ -1781,9 +1781,14 @@ footer p {
     text-transform: none;
 }
 
+.blog-details-post-wrapper > p {
+    text-align: justify;
+}
+
 .blog-details-post-wrapper > .row {
     margin-top: 35px;
     margin-bottom: 25px;
+    font-size: 16px;
 }
 
 .blog-details-post-wrapper > .row p {
