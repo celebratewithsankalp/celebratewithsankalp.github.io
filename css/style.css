@@ -1783,6 +1783,7 @@ footer p {
 
 .blog-details-post-wrapper > p {
     text-align: justify;
+    color: #000000;
 }
 
 .blog-details-post-wrapper > .row {
@@ -1793,7 +1794,7 @@ footer p {
 
 .blog-details-post-wrapper > .row p {
     font-style: italic;
-    color: #292929;
+    color: #000000;
     padding-left: 18px;
 }
 
