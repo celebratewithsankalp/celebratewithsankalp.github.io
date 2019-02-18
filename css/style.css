@@ -1799,7 +1799,7 @@ footer p {
 }
 
 .blog-details-post-wrapper > .row p i {
-    color: #9d9f9f;
+    color: #000000;
     margin: 0 4px;
 }
 
@@ -1820,8 +1820,12 @@ footer p {
 }
 
 .blog-details-post-wrapper .list-img-wrapper ul li a {
-    color: #292929;
+    color: #000000;
     margin-bottom: 12px;
+}
+
+.blog-details-post-wrapper .list-img-wrapper ul p {
+    color: #000000;
 }
 
 .blog-details-post-wrapper .list-img-wrapper ul li a i {
