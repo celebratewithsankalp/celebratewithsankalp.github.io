@@ -315,11 +315,11 @@ input, textarea {
     margin: 95px 0 0 0;
 }
 
-.theme-title h2 {
+.theme-title h1 {
     position: relative;
 }
 
-.theme-title h2:before {
+.theme-title h1:before {
     content: '';
     width: 25px;
     height: 3px;
@@ -355,7 +355,7 @@ input, textarea {
     color: #d73e4d;
 }
 
-.p-color-bg, .theme-title h2:before, #about-us .single-about-content:hover .icon,
+.p-color-bg, .theme-title h1:before, #about-us .single-about-content:hover .icon,
 #skill-section .codeconSkillbar .skillBar, #testimonials .owl-theme .owl-dots .owl-dot.active span,
 #testimonials .owl-theme .owl-dots .owl-dot:hover span,
 .blog-details-post-wrapper .comment-area .single-comment .comment button:hover {
@@ -594,7 +594,7 @@ input, textarea {
     padding-bottom: 80px;
 }
 
-#service-section .theme-title h2,
+#service-section .theme-title h1,
 #service-section .theme-title p {
     color: #fff;
 }
