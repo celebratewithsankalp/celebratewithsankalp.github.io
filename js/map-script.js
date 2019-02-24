@@ -1,6 +1,5 @@
 "use strict";
 
-
 function goMap() {
     if ($('#map').length) {
         // Styles a map in night mode.

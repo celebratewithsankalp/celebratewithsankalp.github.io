@@ -1,6 +1,5 @@
 "use strict";
 
-
 // Prealoder
 function prealoader() {
     if ($('#preloader_1').length) {
