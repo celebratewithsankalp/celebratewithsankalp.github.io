@@ -178,7 +178,7 @@
 body {
     font-family: 'Raleway', sans-serif;
     font-weight: normal;
-    color: #6f6f6f;
+    color: #000000;
     font-size: 14px;
     position: relative;
 }
@@ -193,7 +193,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #292929;
+    color: #000000;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -1167,7 +1167,7 @@ input, textarea {
 #pricing-section .single-price-table {
     display: block;
     background: #fff;
-    border: 1px solid #dfdfdf;
+    border: 1px solid #000000;
     text-align: center;
     padding: 28px 0 22px 0;
 }
@@ -1309,7 +1309,7 @@ input, textarea {
 }
 
 #partner-section .item {
-    border: 1px solid #dfdfdf;
+    border: 1px solid #000000;
     height: 118px;
     padding-top: 22px;
 }
@@ -1383,7 +1383,7 @@ input, textarea {
 #contact .send-message form textarea {
     width: 100%;
     height: 100%;
-    border: 1px solid #dfdfdf;
+    border: 1px solid #000000;
     padding: 0 15px;
 }
 
@@ -1654,7 +1654,7 @@ footer p {
 .blog-details-page aside .sidebar-search-box input {
     width: 100%;
     height: 100%;
-    border: 1px solid #dfdfdf;
+    border: 1px solid #000000;
     padding: 0 67px 0 20px;
 }
 
@@ -1729,7 +1729,7 @@ footer p {
 .sidebar-recent-post .recent-single-post {
     padding-bottom: 20px;
     margin-bottom: 30px;
-    border-bottom: 1px solid #dfdfdf;
+    border-bottom: 1px solid #000000;
 }
 
 .sidebar-recent-post h6,
@@ -1754,7 +1754,7 @@ footer p {
     color: #6f6f6f;
     line-height: 35px;
     padding: 0 12px;
-    border: 1px solid #dfdfdf;
+    border: 1px solid #000000;
     border-radius: 5px;
 }
 
@@ -1772,7 +1772,7 @@ footer p {
 
 .blog-details-post-wrapper .post-heading {
     padding-bottom: 25px;
-    border-bottom: 1px solid #dfdfdf;
+    border-bottom: 1px solid #000000;
     margin-bottom: 25px;
 }
 
@@ -1838,12 +1838,12 @@ footer p {
 }
 
 .blog-details-post-wrapper .post-share-area .share li a {
-    color: #6f6f6f;
+    color: #000000;
 }
 
 .blog-details-post-wrapper .post-share-area {
     padding-bottom: 30px;
-    border-bottom: 1px solid #dfdfdf;
+    border-bottom: 1px solid #000000;
 }
 
 .blog-details-post-wrapper .post-share-area .share-icon li {
@@ -1869,12 +1869,12 @@ footer p {
 .blog-details-post-wrapper .comment-area h4 {
     margin: 55px 0 42px 0;
     padding-bottom: 32px;
-    border-bottom: 1px solid #dfdfdf;
+    border-bottom: 1px solid #000000;
 }
 
 .blog-details-post-wrapper .comment-area .single-comment {
     padding-bottom: 30px;
-    border-bottom: 1px solid #dfdfdf;
+    border-bottom: 1px solid #000000;
     margin-bottom: 30px;
 }
 
@@ -1907,8 +1907,8 @@ footer p {
 .blog-details-post-wrapper .comment-area .single-comment .comment button {
     width: 70px;
     line-height: 30px;
-    color: #292929;
-    background: #dfdfdf;
+    color: #000000;
+    background: #000000;
     text-transform: uppercase;
     font-size: 13px;
 }
@@ -1929,7 +1929,7 @@ footer p {
 .blog-details-post-wrapper .post-comment input {
     width: 100%;
     height: 40px;
-    border: 1px solid #dfdfdf;
+    border: 1px solid #000000;
     padding: 0 15px;
 }
 
@@ -1937,7 +1937,7 @@ footer p {
     width: 100%;
     max-width: 100%;
     height: 170px;
-    border: 1px solid #dfdfdf;
+    border: 1px solid #000000;
     padding: 20px 15px;
 }
 
