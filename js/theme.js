@@ -177,8 +177,74 @@ function clientSlider() {
 
 
 // Partner Logo Footer 
-function partnersLogo() {
-    var logoSlide = $("#partner_logo");
+function banquet1() {
+    var logoSlide = $("#banquet1");
+    if (logoSlide.length) {
+        logoSlide.owlCarousel({
+            loop: true,
+            margin: -1,
+            nav: false,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplaySpeed: 1000,
+            lazyLoad: true,
+            singleItem: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                550: {
+                    items: 2
+                },
+                751: {
+                    items: 3
+                },
+                1001: {
+                    items: 5
+                }
+            }
+        })
+    }
+}
+
+
+// Partner Logo Footer
+function banquet2() {
+    var logoSlide = $("#banquet2");
+    if (logoSlide.length) {
+        logoSlide.owlCarousel({
+            loop: true,
+            margin: -1,
+            nav: false,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplaySpeed: 1000,
+            lazyLoad: true,
+            singleItem: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                550: {
+                    items: 2
+                },
+                751: {
+                    items: 3
+                },
+                1001: {
+                    items: 5
+                }
+            }
+        })
+    }
+}
+
+
+// Partner Logo Footer
+function banquet3() {
+    var logoSlide = $("#banquet3");
     if (logoSlide.length) {
         logoSlide.owlCarousel({
             loop: true,
@@ -310,7 +376,9 @@ jQuery(document).on('ready', function () {
         mixitupGallery();
         bootstrapProgress();
         clientSlider();
-        partnersLogo();
+        banquet1();
+        banquet2();
+        banquet3();
         contactFormValidation();
         closeSuccessAlert();
         cladendar();
